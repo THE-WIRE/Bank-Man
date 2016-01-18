@@ -4,7 +4,7 @@
  * and open the template in the editor.
  */
 package DataObjects;
-import java.util.*;
+import java.util.Date;
 /**
  *
  * @author Shrikant
