@@ -4,11 +4,10 @@
  * and open the template in the editor.
  */
 package DataObjects;
-
+import java.util.*;
 /**
  *
  * @author Shrikant
  */
 public class Customer {
-    
 }

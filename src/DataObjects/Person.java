@@ -10,5 +10,13 @@ package DataObjects;
  * @author Shrikant
  */
 public class Person {
+    public String customer,employee;
+    public String name,qualification,address;
+    public int date;
+    public int sex,exp;
     
+    public Customer()
+    {
+       
+    } 
 }
