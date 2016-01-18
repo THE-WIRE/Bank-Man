@@ -4,19 +4,22 @@
  * and open the template in the editor.
  */
 package DataObjects;
-
+import java.util.*;
 /**
  *
  * @author Shrikant
  */
 public class Person {
-    public String customer,employee;
-    public String name,qualification,address;
-    public int date;
-    public int sex,exp;
+    public String name, address;
+    public Date date;
+    public int exp;
+    public String gender;
     
-    public Customer()
+    public Person()
     {
-       
+       name = null;
+       date = null;
+       gender = null;
+       exp = 0;
     } 
 }
