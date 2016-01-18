@@ -10,16 +10,19 @@ import java.util.Date;
  * @author Shrikant
  */
 public class Person {
-    public String name, address;
-    public Date date;
-    public int exp;
-    public String gender;
+    public String name;      
+    public String adrs;         //Address
+    public Date dob;            //Date of birth
+    public String gen;          //Gender
+    public String mob;          //Mobile number
     
     public Person()
     {
        name = null;
-       date = null;
-       gender = null;
-       exp = 0;
+       dob = null;
+       gen = null;
+       adrs=null;
+       mob=null;
+      
     } 
 }
